@@ -1,0 +1,474 @@
+[
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Anemias"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Dislipidemias"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Hipertensión arterial sistémica"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Diabetes Mellitus tipo 2"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Suplementación con hierro"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Gota"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Obesidad y sobrepeso"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Osteoartritis"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Osteoporosis"
+  },
+  {
+    "thematic-area": "Medicina Interna I",
+    "topic": "Enfermedad Renal Crónica"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Enfermedad tromboembólica"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Enfermedad cerebrovascular"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Insuficiencia cardiaca aguda"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Insuficiencia cardiaca crónica"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Cardiopatías congénitas"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Estenosis Aórtica"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "EPOC"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Asma"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Síndromes coronarios"
+  },
+  {
+    "thematic-area": "Medicina Interna II",
+    "topic": "Migraña / cefalea tensional"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "VIH/SIDA"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "VIH y embarazo"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "Tuberculosis"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "Brucelosis"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "Dengue"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "Paludismo"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "COVID-19"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "Difteria / Tos ferina / Tétanos"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "Parasitosis intestinales"
+  },
+  {
+    "thematic-area": "Infectología I",
+    "topic": "Intoxicación por hierro"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "IVU"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "Infecciones vaginales"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "Enfermedad inflamatoria pélvica"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "Enfermedades exantemáticas"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "Intoxicaciones en menores"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "Picadura de alacrán"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "Crisis hipertensivas"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "Síndrome de abstinencia alcohólica"
+  },
+  {
+    "thematic-area": "Infectología II + Urgencias",
+    "topic": "Enfermedad de Addison"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Enfermedad de Parkinson"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Enfermedad de Alzheimer"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Tumores cerebrales infantiles"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Trastornos del sueño"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Parálisis de Bell"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Síndrome de motoneurona"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Interacciones farmacológicas en el adulto mayor"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Valoración pre y postquirúrgica"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "NOM 004"
+  },
+  {
+    "thematic-area": "Neuro, Geriatría y Farmacología",
+    "topic": "Bioética"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Cirrosis hepática y Child-Pugh"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Hepatopatías"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "ERGE y dispepsia funcional"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Pancreatitis aguda"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Pancreatitis crónica"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Patologías de la vía biliar"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Trastornos de la vía biliar"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Cáncer gástrico"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Sangrado de tubo digestivo alto"
+  },
+  {
+    "thematic-area": "Gastroenterología I",
+    "topic": "Sangrado de tubo digestivo bajo"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Síndrome de colon irritable"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Invaginación intestinal"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Apendicitis"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Desnutrición"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Diarrea aguda en niños"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Hernia inguinal"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Hernia hiatal"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Hernias de disco"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Cáncer de colon"
+  },
+  {
+    "thematic-area": "Gastroenterología II + Misceláneos",
+    "topic": "Cáncer de próstata"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Embarazo ectópico"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Hemorragias de la 2da mitad del embarazo"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Diabetes gestacional"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "SOP"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Miomatosis uterina"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Neoplasia intraepitelial cervical"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Cáncer cervicouterino"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Cáncer de ovario"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Patología benigna de mama"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia I",
+    "topic": "Cáncer de mama"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Placenta previa"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "RCIU"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Síndrome de HELLP"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Muerte súbita del lactante"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Sinequias uterinas"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Prolapso genital e incontinencia urinaria"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Incontinencia urinaria"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Métodos de planificación familiar"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Nódulo tiroideo"
+  },
+  {
+    "thematic-area": "Gineco-Obstetricia II",
+    "topic": "Hipotiroidismo congénito"
+  },
+  {
+    "thematic-area": "Cirugía y Urología",
+    "topic": "Hiperplasia prostática benigna"
+  },
+  {
+    "thematic-area": "Cirugía y Urología",
+    "topic": "Urolitiasis"
+  },
+  {
+    "thematic-area": "Cirugía y Urología",
+    "topic": "Fractura de cadera"
+  },
+  {
+    "thematic-area": "Cirugía y Urología",
+    "topic": "Pie diabético"
+  },
+  {
+    "thematic-area": "Cirugía y Urología",
+    "topic": "Feocromocitoma"
+  },
+  {
+    "thematic-area": "Cirugía y Urología",
+    "topic": "Síndrome de vena cava superior"
+  },
+  {
+    "thematic-area": "Cirugía y Urología",
+    "topic": "Cirugía general y urgencias quirúrgicas"
+  },
+  {
+    "thematic-area": "Pediatría I",
+    "topic": "Taquipnea transitoria del RN"
+  },
+  {
+    "thematic-area": "Pediatría I",
+    "topic": "Enfermedades exantemáticas en la infancia"
+  },
+  {
+    "thematic-area": "Pediatría I",
+    "topic": "Diarrea aguda en menores"
+  },
+  {
+    "thematic-area": "Pediatría I",
+    "topic": "Vacunación nacional"
+  },
+  {
+    "thematic-area": "Pediatría I",
+    "topic": "Bronquiolitis"
+  },
+  {
+    "thematic-area": "Pediatría I",
+    "topic": "Desnutrición infantil"
+  },
+  {
+    "thematic-area": "Pediatría I",
+    "topic": "EKG"
+  },
+  {
+    "thematic-area": "Salud Pública + Epidemiología",
+    "topic": "Definiciones en epidemiología"
+  },
+  {
+    "thematic-area": "Salud Pública + Epidemiología",
+    "topic": "Tipos de estudio en epidemiología"
+  },
+  {
+    "thematic-area": "Salud Pública + Epidemiología",
+    "topic": "Pruebas estadísticas"
+  },
+  {
+    "thematic-area": "Salud Pública + Epidemiología",
+    "topic": "Esquema nacional de vacunación"
+  },
+  {
+    "thematic-area": "Salud Pública + Epidemiología",
+    "topic": "Bioética. Principios básicos"
+  },
+  {
+    "thematic-area": "Salud Pública + Epidemiología",
+    "topic": "NOM 004"
+  },
+  {
+    "thematic-area": "Misceláneos + Reforzamiento",
+    "topic": "Síndromes pleuropulmonares"
+  },
+  {
+    "thematic-area": "Misceláneos + Reforzamiento",
+    "topic": "Derrame pleural"
+  },
+  {
+    "thematic-area": "Misceláneos + Reforzamiento",
+    "topic": "Síndromes paraneoplásicos"
+  },
+  {
+    "thematic-area": "Misceláneos + Reforzamiento",
+    "topic": "Síndrome de motoneurona"
+  },
+  {
+    "thematic-area": "Misceláneos + Reforzamiento",
+    "topic": "Otros temas débiles o de repaso individualizado"
+  },
+  {
+    "thematic-area": "Repaso 1",
+    "topic": "Simulador / repaso general"
+  },
+  {
+    "thematic-area": "Repaso 2",
+    "topic": "Simulador / repaso general"
+  },
+  {
+    "thematic-area": "Repaso 3",
+    "topic": "Simulador / repaso general"
+  },
+  {
+    "thematic-area": "Repaso 4",
+    "topic": "Simulador / repaso general"
+  }
+]
