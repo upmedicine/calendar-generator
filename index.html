@@ -8,27 +8,31 @@
     :root{
       --primary:#2A98A5; /* teal */
       --accent:#FAA84A;  /* orange */
-      --bg:#f7fafb;
+      --bg:#f6f9fb;
       --day-bg:#ffffff;
-      --text:#102a43;
-      --muted:#627d98;
+      --text:#0f1c24;
+      --muted:#5f7584;
       --border:#d9e2ec;
       --chip-text:#0b1f2a;
     }
     *{box-sizing:border-box}
     body{
-      margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial;
       background: var(--bg); color: var(--text);
     }
     header{
-      position:sticky; top:0; z-index:10; backdrop-filter: blur(6px);
-      background: color-mix(in oklab, white 70%, var(--primary));
+      position:sticky; top:0; z-index:10; backdrop-filter: saturate(1.2) blur(8px);
+      background: linear-gradient(0deg, color-mix(in oklab, white 85%, var(--primary)), #fff);
       border-bottom: 2px solid var(--primary);
-      padding: 14px 18px; display:flex; align-items:center; justify-content:space-between;
+      padding: 14px 20px; display:flex; align-items:center; justify-content:space-between;
     }
     header h1{ margin:0; font-size: clamp(18px, 2.2vw, 28px); letter-spacing: .3px; }
     header .meta{ font-size: 14px; color: var(--muted); }
-    main{ max-width: 1100px; margin: 24px auto; padding: 0 16px 48px; }
+    main{ width: min(1600px, 96vw); margin: 20px auto 56px; padding: 0 4px; }
+
+    .logo { height:60px; width:auto; margin-right:12px; }
+
+    .meta { margin-right: 12px; font-weight:600; }
 
     .notice{ background: #fff; border:1px solid var(--border); padding:14px 16px; border-left:4px solid var(--accent); border-radius:12px; margin:16px 0; }
 
@@ -36,37 +40,37 @@
     .legend .item{ display:flex; align-items:center; gap:8px; font-size:13px; color:var(--muted) }
     .legend .swatch{ width:14px; height:14px; border-radius:4px; border:1px solid #0001 }
 
-    .month{ margin: 18px 0 28px; border:1px solid var(--border); border-radius:16px; overflow:hidden; background:#fff; box-shadow: 0 6px 18px -12px #0003 }
+    .month{ margin: 18px 0 32px; border:1px solid var(--border); border-radius:18px; overflow:hidden; background:#fff; box-shadow: 0 12px 28px -18px #0004 }
     .month-header{
       display:flex; align-items:center; justify-content:space-between; gap:12px;
-      padding: 10px 14px; background: linear-gradient(0deg, #fff, color-mix(in oklab, white 75%, var(--primary)));
+      padding: 14px 16px; background: linear-gradient(180deg, color-mix(in oklab, white 80%, var(--primary)), #fff);
       border-bottom:1px solid var(--border);
     }
-    .month-title{ font-weight:700; color: var(--primary); letter-spacing:.3px }
-    .weekdays, .days{ display:grid; grid-template-columns: repeat(7, 1fr); }
-    .weekdays div{ text-align:center; padding:10px 4px; font-size:12px; color:#2b2b2b; background: color-mix(in oklab, white 92%, var(--primary)); font-weight:600 }
+    .month-title{ font-size: 1.3rem; font-weight:900; color: var(--primary); letter-spacing:.3px }
+    .weekdays, .days{ display:grid; grid-template-columns: repeat(7, minmax(0,1fr)); }
+    .weekdays div{ text-align:center; padding:10px 4px; font-size:12px; color:#1d2930; background: color-mix(in oklab, white 90%, var(--primary)); font-weight:700; letter-spacing:.3px; text-transform:uppercase }
 
     .day{
-      min-height: 120px; border-top:1px solid var(--border); border-right:1px solid var(--border); background: var(--day-bg);
-      padding:8px; display:flex; flex-direction:column; gap:6px;
+      background: var(--day-bg);
+      border:1px solid var(--border);
+      border-radius: 14px;
+      padding:10px; display:flex; flex-direction:column; gap:6px; overflow:hidden;
     }
-    .day:nth-child(7n){ border-right:none }
-    .date{ font-size:12px; color: var(--muted); font-weight:700 }
+    /* no right-edge border rule needed with gaps */
+    .date{ font-size:12px; color: var(--muted); font-weight:800; letter-spacing:.2px }
 
-    .chip{ display:inline-flex; align-items:center; gap:6px; padding:5px 8px; border-radius:999px; font-size:11px; line-height:1.1; font-weight:700; border:1px solid #0002; max-width:100%; }
-    .chip .topic{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    .chip .area{ opacity:.85; font-weight:800 }
+    .chip{ display:flex; flex-direction:column; align-items:flex-start; gap:4px; padding:8px 10px; border-radius:12px; font-size:12px; line-height:1.2; font-weight:700; border:1px solid #0002; width:100%; }
+    .chip .topic{ font-weight:600; font-size:12px; white-space:nowrap; overflow: hidden; text-overflow:ellipsis; text-wrap: wrap;}
+    .chip .area{ font-size:9px; opacity:.8; letter-spacing:.2px; }
 
-    .today{ outline:2px solid var(--accent); outline-offset:-2px; }
-
-    @media (max-width: 720px){
-      .day{ min-height: 140px }
+    .today{ outline:none; box-shadow: 0 0 0 2px var(--accent) inset, 0 2px 10px -6px #0003; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Calendario de Estudio</h1>
+    <img src="logo.png" alt="Logo" class="logo"/>
+    <h1>Calendario de estudio</h1>
     <div class="meta" id="meta"></div>
   </header>
   <main>
@@ -148,22 +152,36 @@
   const simDays = topics.slice(-4);
   const otherTopics = topics.slice(0, -4);
 
-  // Distribute otherTopics across (totalDays - 4) days as evenly as possible
+  // Distribute otherTopics across (totalDays - 4) days ensuring NO empty study days
   const studyDays = totalDays - 4;
   const R = otherTopics.length;
-  const base = Math.floor(R / studyDays);
-  const extra = R % studyDays;
 
   const schedule = [];
-  let cursor = 0;
-  for(let i=0;i<studyDays;i++){
-    const count = base + (i < extra ? 1 : 0);
-    const chunk = otherTopics.slice(cursor, cursor + count);
-    cursor += count;
-    schedule.push(chunk);
+  if (studyDays > 0) {
+    if (R >= studyDays) {
+      // enough topics: classic even chunking
+      const base = Math.floor(R / studyDays);
+      const extra = R % studyDays;
+      let cursor = 0;
+      for (let i = 0; i < studyDays; i++) {
+        const count = base + (i < extra ? 1 : 0);
+        const chunk = otherTopics.slice(cursor, cursor + count);
+        cursor += count;
+        schedule.push(chunk);
+      }
+    } else if (R > 0) {
+      // not enough topics: cycle topics so every day has at least one (no free days)
+      for (let i = 0; i < studyDays; i++) {
+        schedule.push([ otherTopics[i % R] ]);
+      }
+    } else {
+      // no other topics available (only simulator ones exist)
+      for (let i = 0; i < studyDays; i++) schedule.push([]);
+      showMessage('No hay suficientes temas (excluyendo Simulador) para cubrir los días previos.');
+    }
   }
-  // Append the four single-topic days
-  for(const s of simDays){ schedule.push([s]); }
+  // Append the four single-topic days at the very end
+  for (const s of simDays) { schedule.push([s]); }
 
   // Build date range
   const days = [];
@@ -174,8 +192,12 @@
 
   // Map thematic-area => color (distinct + accessible)
   const uniqueAreas = Array.from(new Set(topics.map(t=>t['thematic-area'])));
+  // Pallete with good contrast and distinct material colors
   const palette = [
-    '#2A98A5','#FAA84A','#6A7FDB','#49A078','#D9777F','#9B59B6','#E67E22','#16A085','#C0392B','#2ECC71','#2980B9','#F39C12'
+    '#EF476F', '#FFD166', '#06D6A0', '#118AB2', '#073B4C',
+    '#8E44AD', '#E67E22', '#2ECC71', '#3498DB', '#E74C3C',
+    '#1ABC9C', '#9B59B6', '#F39C12', '#27AE60', '#2980B9',
+    '#C0392B', '#16A085', '#7F8C8D', '#D35400', '#2C3E50'
   ];
   const areaColor = new Map();
   uniqueAreas.forEach((area, idx)=>{
@@ -184,18 +206,20 @@
   });
 
   // Render legend
+  /*
   for(const area of uniqueAreas){
     const item = document.createElement('div'); item.className = 'item';
     const sw = document.createElement('span'); sw.className = 'swatch'; sw.style.background = areaColor.get(area);
     const label = document.createElement('span'); label.textContent = area;
     item.append(sw, label); legend.appendChild(item);
   }
+  */
 
   // Group days by month
   const byMonth = new Map();
-  for(const entry of days){
-    const key = `${entry.date.getFullYear()}-${entry.date.getMonth()}`;
-    if(!byMonth.has(key)) byMonth.set(key, []);
+  for (const entry of days) {
+    const key = `${entry.date.getFullYear()}-${String(entry.date.getMonth()+1).padStart(2,'0')}`;
+    if (!byMonth.has(key)) byMonth.set(key, []);
     byMonth.get(key).push(entry);
   }
 
@@ -208,7 +232,12 @@
   // Render each month as a calendar table
   const todayStr = formatDDMMYYYY(new Date());
 
-  for(const [key, entries] of Array.from(byMonth.entries()).sort((a,b)=> a[0] < b[0] ? -1 : 1)){
+  const months = Array.from(byMonth.entries()).sort((a,b)=>{
+    const [ay, am] = a[0].split('-').map(Number);
+    const [by, bm] = b[0].split('-').map(Number);
+    return ay === by ? am - bm : ay - by;
+  });
+  for (const [key, entries] of months) {
     const monthDate = new Date(entries[0].date.getFullYear(), entries[0].date.getMonth(), 1);
     const year = monthDate.getFullYear();
     const month = monthDate.getMonth();
@@ -226,11 +255,13 @@
     monthWrap.appendChild(weekdaysRow);
 
     const grid = document.createElement('div'); grid.className='days';
+    grid.style.gap = '8px';
+    grid.style.padding = '8px';
 
     // calculate leading empty cells (from first day of month to Monday)
     const firstOfMonth = new Date(year, month, 1);
     const lead = weekdayMon0(firstOfMonth);
-    for(let i=0;i<lead;i++){ grid.appendChild(document.createElement('div')); }
+    for(let i=0;i<lead;i++){ const blank = document.createElement('div'); blank.className='day blank'; grid.appendChild(blank); }
 
     // fill days of month
     const daysInMonth = new Date(year, month+1, 0).getDate();
@@ -238,8 +269,8 @@
     for(let day=1; day<=daysInMonth; day++){
       const cell = document.createElement('div'); cell.className='day';
       const thisDate = new Date(year, month, day);
-      const dateSpan = document.createElement('div'); dateSpan.className='date'; dateSpan.textContent = String(day);
-      cell.appendChild(dateSpan);
+      const dateBar = document.createElement('div'); dateBar.className='date'; dateBar.textContent = String(day);
+      const labels = document.createElement('div'); labels.className = 'labels'; labels.style.display='flex'; labels.style.flexDirection='column'; labels.style.gap='6px'; labels.style.overflow='auto'; labels.style.flex='1';
 
       const thisStr = formatDDMMYYYY(thisDate);
       const inStudy = entries.find(e=> formatDDMMYYYY(e.date) === thisStr);
@@ -251,14 +282,17 @@
           chip.style.color = bestTextColor(bg);
           chip.style.borderColor = '#0002';
 
-          const area = document.createElement('span'); area.className='area'; area.textContent = shortArea(item['thematic-area']);
-          const topic = document.createElement('span'); topic.className='topic'; topic.textContent = item.topic;
-          chip.append(area, topic);
-          cell.appendChild(chip);
+          const topic = document.createElement('div'); topic.className='topic'; topic.textContent = item.topic;
+          const area = document.createElement('div'); area.className='area'; area.textContent = item['thematic-area'];
+          chip.append(topic, area);
+          labels.appendChild(chip);
         }
       }
 
-      if(thisStr === todayStr){ cell.classList.add('today'); }
+      const thisStr2 = formatDDMMYYYY(thisDate);
+      if(thisStr2 === todayStr){ cell.classList.add('today'); }
+
+      cell.append(dateBar, labels);
       grid.appendChild(cell);
     }
 
